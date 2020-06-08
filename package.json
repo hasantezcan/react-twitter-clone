@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,18 @@
   },
   "homepage": "https://github.com/hasantezcan/react-twitter-clone#readme",
   "dependencies": {
+    "css-loader": "^3.5.3",
     "next": "^9.4.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
   }
 }
