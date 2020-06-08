@@ -3,15 +3,12 @@ import React from 'react';
 import Button from '../components/button'
 
 export default {
-  title: 'Button',
-  component: Button,
+  title: 'Buttons'
 };
 
 
-export const Emoji = () => (
+export const Normal = () => (
   <Button>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
+    Save
   </Button>
 );

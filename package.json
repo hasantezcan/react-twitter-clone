@@ -9,13 +9,13 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "icon": "svgr icons/* -d components/icons --icon"
+    "icon": "svgr icons/ -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hasantezcan/react-twitter-clone.git"
   },
-  "keywords": [react, next, storybook, twitter-clone],
+  "keywords": [],
   "author": "hasantezcan",
   "license": "MIT",
   "bugs": {
