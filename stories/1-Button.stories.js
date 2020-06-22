@@ -12,4 +12,4 @@ export const Normal = () => <Button>Save</Button>
 
 export const NavButton = () => <NavigationButton>Save</NavigationButton>
 
-export const Nav = () => <Navigation></Navigation>
+export const Nav = () => <Navigation />

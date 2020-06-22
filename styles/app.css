@@ -6,3 +6,14 @@
   border: 0;
   font: inherit; /* form elemanlarında input button gibi.. font farklılıklarını önlemek için */
 }
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background-color: var(--c-primary);
+}
