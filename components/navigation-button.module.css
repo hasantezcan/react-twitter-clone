@@ -5,9 +5,11 @@
   border-radius: 99px;
   display: flex;
   align-items: center;
+  transition: var(--fade);
 
   &:hover {
-      background-color: var(--c-theme-20);
+    color: var(--c-theme);
+    background-color: var(--c-theme-20);
   }
 
   svg {
@@ -36,5 +38,5 @@
   background-color: var(--c-theme);
   color: var(--c-text-color);
   font-size: 11px;
-  border: 1px solid var(--c-primary)
+  border: 1px solid var(--c-primary);
 }
