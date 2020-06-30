@@ -14,11 +14,11 @@ export default {
 
 export const Normal = () => <Button>Save</Button>
 export const Theme = () => (
-         <div>
+         <Stack column gap={20}>
            <ThemeButton>Tweet</ThemeButton>
            <ThemeButton full>Tweet Full</ThemeButton>
            <ThemeButton full big>Tweet Big Full</ThemeButton>
-         </div>
+         </Stack>
        )
 
 export const NavButton = () => (
