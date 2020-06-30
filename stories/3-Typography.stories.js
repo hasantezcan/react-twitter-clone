@@ -1,14 +1,15 @@
 import React from 'react'
 
 import TextTitle from '../components/text-title'
+import Stack from '../components/stack'
 
 export default {
   title: 'Typography'
 }
 
 export const Typography = () => (
-  <div>
+  <Stack column>
     <TextTitle>Merhaba Dünya</TextTitle>
-    <TextTitle>Merhaba Dünya</TextTitle>
-  </div>
+    <TextTitle bold={false}>Merhaba Dünya</TextTitle>
+  </Stack>
 )
