@@ -39,6 +39,4 @@ export const Icon = () => (
   </div>
 )
 
-export const ProfilePhoto = () => (
-  <Photo src="https://pbs.twimg.com/profile_images/1178022977029464064/RpPdlyNV_400x400.jpg" />
-)
+export const ProfilePhoto = () => <Photo />
