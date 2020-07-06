@@ -1,16 +1,20 @@
 import React from 'react'
 
+import CONST from '../constants'
 import Layout from '../components/layout'
+import Sidebar from '../components/col-sidebar'
+import Main from '../components/col-main'
+import Extra from '../components/col-extra'
 import useWindowSize from '../components/hooks/useWindowsSize'
 
 function HomePage() {
-  const size = useWindowSize();
+  const size = useWindowSize()
 
   return (
     <Layout>
-      <div flat={size.width < 1270 }>sidebar</div>
-      <div>{JSON.stringify(size)}</div>
-      {size.width > 980 && <div>extra</div>}
+      <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>sidebar</Sidebar>
+      <Main>{JSON.stringify(size)}</Main>
+      {size.width > CONST.TABLET_SIZE && <Extra>extra</Extra>}
     </Layout>
   )
 }
