@@ -17,9 +17,10 @@ import {
 
 import styles from './navigation.module.css'
 
-function Navigation({ selectedKey }) {
+function Navigation({ flat = false, selectedKey }) {
   return (
     <nav className={styles.nav}>
+      <p>{JSON.stringify(flat)}</p>
       <NavigationButton>
         <Twitter />
       </NavigationButton>
