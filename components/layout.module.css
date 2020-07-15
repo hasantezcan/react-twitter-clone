@@ -2,8 +2,12 @@
   display: grid;
   grid-template-columns: 230px 1fr;
   min-height: 100vh;
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
 
-  @media screen and (--t) {
+  @media (--t) {
+    max-width: 1270px;
     grid-template-columns: 230px 1fr 230px;
   }
 }
