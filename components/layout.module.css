@@ -1,7 +1,6 @@
 .layout {
   display: grid;
   grid-template-columns: 230px 1fr;
-  background-color: #333;
   min-height: 100vh;
 
   @media screen and (--t) {
