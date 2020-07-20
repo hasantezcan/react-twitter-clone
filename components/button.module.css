@@ -10,7 +10,7 @@
 
   &:hover {
     color: var(--c-theme);
-    background-color: var(--c-theme-20);
+    background-color: var(--c-theme-10);
   }
 }
 
