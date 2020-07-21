@@ -9,7 +9,7 @@ export default {
 export const MENU = [
   {
     key: 'twitter',
-    path: '/',
+    path: '/home',
     icon: <Icon.Twitter style={{ fontSize: 30 }} />,
     iconSelected: <Icon.Twitter style={{ fontSize: 30 }} />,
     title: '',
