@@ -9,15 +9,15 @@ export default {
 export const MENU = [
   {
     key: 'twitter',
-    path: '/home',
-    icon: <Icon.Twitter style={{ fontSize: 30 }} />,
-    iconSelected: <Icon.Twitter style={{ fontSize: 30 }} />,
+    path: '/',
+    icon: <Icon.Twitter style={{ fontSize: 30, color: 'white' }} />,
+    iconSelected: <Icon.Twitter style={{ fontSize: 30, color: 'white' }} />,
     title: '',
     notify: 0
   },
   {
     key: 'home',
-    path: '/home',
+    path: '/',
     icon: <Icon.Home />,
     iconSelected: <Icon.HomeFill />,
     title: 'Home',
@@ -36,7 +36,7 @@ export const MENU = [
     path: '/notifications',
     icon: <Icon.Notification />,
     iconSelected: <Icon.NotificationFill />,
-    title: 'Notification',
+    title: 'Notifications',
     notify: 17
   },
   {
