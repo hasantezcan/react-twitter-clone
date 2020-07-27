@@ -34,3 +34,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ```bash
   npm storybook
 ```
+
+## TODO
+
+- [ ] Theme support
+- [ ] Tweet component
+- [ ] A API for timeline
+- [ ] Send a tweet model
