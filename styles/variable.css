@@ -1,6 +1,7 @@
 :root {
   --c-primary: #fff;
   --c-text-color: #000000;
+  --c-theme-text-color: #fff;
   --c-border-color: rgb(230, 236, 240);
   --c-gray: #6e767d;
   --c-dark-gray: #202327;
@@ -11,40 +12,47 @@
 /* light */
 
 .light.blue:root {
-  --c-theme: rgb(26, 145, 218);
+  --c-theme: rgb(29, 161, 242);
   --c-theme-10: rgb(26, 145, 218, 0.1);
+  --c-theme-hover: rgb(26, 145, 218);
 }
 
 .light.yellow:root {
   --c-theme: rgb(255, 173, 31);
   --c-theme-10: rgba(255, 173, 31, 0.1);
+  --c-theme-hover: rgba(230, 156, 28);
 }
 
 .light.pink:root {
-  --c-theme: #e0245e;
-  --c-theme-10: rgba(16, 22, 26, 0.1);
+  --c-theme: rgb(224, 36, 94);
+  --c-theme-10: rgba(224, 36, 94, 0.1);
+  --c-theme-hover: rgba(202, 32, 85);
 }
 
 .light.purple:root {
   --c-theme: rgb(121, 75, 196);
   --c-theme-10: rgb(121, 75, 196, 0.1);
+  --c-theme-hover: rgb(121, 75, 256);
 }
 
 .light.orange:root {
   --c-theme: rgb(244, 93, 34);
   --c-theme-10: rgb(244, 93, 34, 0.1);
+  --c-theme-hover: rgb(220, 84, 31);
 }
 
 .light.green:root {
   --c-theme: rgb(23, 191, 99);
   --c-theme-10: rgb(23, 191, 99, 0.1);
+  --c-theme-hover: rgb(21, 172, 89);
 }
 
 /* dim  */
 
 .dim.blue:root {
-  --c-theme: rgb(26, 145, 218);
+  --c-theme: rgb(29, 161, 242);
   --c-theme-10: rgb(26, 145, 218, 0.1);
+  --c-theme-hover: rgb(26, 145, 218);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -55,6 +63,7 @@
 .dim.yellow:root {
   --c-theme: rgb(255, 173, 31);
   --c-theme-10: rgba(255, 173, 31, 0.1);
+  --c-theme-hover: rgba(230, 156, 28);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -63,8 +72,9 @@
 }
 
 .dim.pink:root {
-  --c-theme: #e0245e;
-  --c-theme-10: rgba(16, 22, 26, 0.1);
+  --c-theme: rgb(224, 36, 94);
+  --c-theme-10: rgba(224, 36, 94, 0.1);
+  --c-theme-hover: rgba(202, 32, 85);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -75,6 +85,7 @@
 .dim.purple:root {
   --c-theme: rgb(121, 75, 196);
   --c-theme-10: rgb(121, 75, 196, 0.1);
+  --c-theme-hover: rgb(121, 75, 196, 0.1);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -85,6 +96,7 @@
 .dim.orange:root {
   --c-theme: rgb(244, 93, 34);
   --c-theme-10: rgb(244, 93, 34, 0.1);
+  --c-theme-hover: rgb(220, 84, 31);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -95,6 +107,7 @@
 .dim.green:root {
   --c-theme: rgb(23, 191, 99);
   --c-theme-10: rgb(23, 191, 99, 0.1);
+  --c-theme-hover: rgb(21, 172, 89);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -105,8 +118,9 @@
 /* dark */
 
 .dark.blue:root {
-  --c-theme: rgb(26, 145, 218);
+  --c-theme: rgb(29, 161, 242);
   --c-theme-10: rgb(26, 145, 218, 0.1);
+  --c-theme-hover: rgb(26, 145, 218);
   --c-primary: #000;
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -116,6 +130,7 @@
 
 .dark.yellow:root {
   --c-theme: rgb(255, 173, 31);
+  --c-theme-hover: rgba(230, 156, 28);
   --c-theme-10: rgba(255, 173, 31, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
@@ -125,8 +140,9 @@
 }
 
 .dark.pink:root {
-  --c-theme: #e0245e;
-  --c-theme-10: rgba(16, 22, 26, 0.1);
+  --c-theme: rgb(224, 36, 94);
+  --c-theme-hover: rgba(202, 32, 85);
+  --c-theme-10: rgba(224, 36, 94, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -136,6 +152,7 @@
 
 .dark.purple:root {
   --c-theme: rgb(121, 75, 196);
+  --c-theme-hover: rgb(121, 75, 196, 0.1);
   --c-theme-10: rgb(121, 75, 196, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
@@ -146,6 +163,7 @@
 
 .dark.orange:root {
   --c-theme: rgb(244, 93, 34);
+  --c-theme-hover: rgb(220, 84, 31);
   --c-theme-10: rgb(244, 93, 34, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
@@ -156,6 +174,7 @@
 
 .dark.green:root {
   --c-theme: rgb(23, 191, 99);
+  --c-theme-hover: rgb(21, 172, 89);
   --c-theme-10: rgb(23, 191, 99, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
