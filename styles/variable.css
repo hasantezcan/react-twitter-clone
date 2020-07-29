@@ -16,8 +16,8 @@
 }
 
 .light.yellow:root {
-  --c-theme: rgb(230, 156, 28);
-  --c-theme-10: rgba(230, 156, 28, 0.1);
+  --c-theme: rgb(255, 173, 31);
+  --c-theme-10: rgba(255, 173, 31, 0.1);
 }
 
 .light.pink:root {
@@ -31,13 +31,13 @@
 }
 
 .light.orange:root {
-  --c-theme: rgb(220, 84, 31);
-  --c-theme-10: rgb(220, 84, 31, 0.1);
+  --c-theme: rgb(244, 93, 34);
+  --c-theme-10: rgb(244, 93, 34, 0.1);
 }
 
 .light.green:root {
-  --c-theme: rgb(21, 172, 89);
-  --c-theme-10: rgb(21, 172, 89, 0.1);
+  --c-theme: rgb(23, 191, 99);
+  --c-theme-10: rgb(23, 191, 99, 0.1);
 }
 
 /* dim  */
@@ -53,8 +53,8 @@
 }
 
 .dim.yellow:root {
-  --c-theme: rgb(230, 156, 28);
-  --c-theme-10: rgba(230, 156, 28, 0.1);
+  --c-theme: rgb(255, 173, 31);
+  --c-theme-10: rgba(255, 173, 31, 0.1);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -83,8 +83,8 @@
 }
 
 .dim.orange:root {
-  --c-theme: rgb(220, 84, 31);
-  --c-theme-10: rgb(220, 84, 31, 0.1);
+  --c-theme: rgb(244, 93, 34);
+  --c-theme-10: rgb(244, 93, 34, 0.1);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -93,8 +93,8 @@
 }
 
 .dim.green:root {
-  --c-theme: rgb(21, 172, 89);
-  --c-theme-10: rgb(21, 172, 89, 0.1);
+  --c-theme: rgb(23, 191, 99);
+  --c-theme-10: rgb(23, 191, 99, 0.1);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -115,8 +115,8 @@
 }
 
 .dark.yellow:root {
-  --c-theme: rgb(230, 156, 28);
-  --c-theme-10: rgba(230, 156, 28, 0.1);
+  --c-theme: rgb(255, 173, 31);
+  --c-theme-10: rgba(255, 173, 31, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -145,8 +145,8 @@
 }
 
 .dark.orange:root {
-  --c-theme: rgb(220, 84, 31);
-  --c-theme-10: rgb(220, 84, 31, 0.1);
+  --c-theme: rgb(244, 93, 34);
+  --c-theme-10: rgb(244, 93, 34, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -155,8 +155,8 @@
 }
 
 .dark.green:root {
-  --c-theme: rgb(21, 172, 89);
-  --c-theme-10: rgb(21, 172, 89, 0.1);
+  --c-theme: rgb(23, 191, 99);
+  --c-theme-10: rgb(23, 191, 99, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
