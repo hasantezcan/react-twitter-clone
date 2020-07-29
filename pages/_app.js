@@ -17,13 +17,34 @@ export default function MyApp({ Component, pageProps }) {
   }
 
   useEffect(() => {
-    if (!theme) return
+    if (!subTheme) return
     const $html = document.querySelector('html')
-    $html.setAttribute('class', theme)
+    $html.setAttribute('class', `${theme} ${subTheme}`)
   }, [theme])
+  
+  // subTheme
+  const [subTheme, subThemeSet] = useState(null)
+
+  useLayoutEffect(() => {
+    const subTheme = localStorage.getItem('SUB_THEME') || 'blue'
+    subThemeSet(subTheme)
+  }, [])
+
+  const changeSubTheme = (subTheme) => {
+    subThemeSet(subTheme)
+    localStorage.setItem('SUB_THEME', subTheme)
+  }
+
+  useEffect(() => {
+    if (!subTheme) return
+    const $html = document.querySelector('html')
+    $html.setAttribute('class', `${theme} ${subTheme}`)
+  }, [subTheme])
 
   return (
-    <StoreContext.Provider value={{ theme, changeTheme }}>
+    <StoreContext.Provider
+      value={{ theme, changeTheme, subTheme, changeSubTheme }}
+    >
       <Component {...pageProps} />
     </StoreContext.Provider>
   )

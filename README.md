@@ -37,7 +37,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## TODO
 
-- [ ] Theme support
+- [x] Theme support
+- [x] Color Theme support
+  - [ ] DRY
 - [ ] Tweet component
 - [ ] A API for timeline
 - [ ] Send a tweet model

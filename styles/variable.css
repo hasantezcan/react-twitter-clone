@@ -1,7 +1,5 @@
 :root {
   --c-primary: #fff;
-  --c-theme: rgba(29, 161, 242, 1);
-  --c-theme-10: rgba(29, 161, 242, 0.1);
   --c-text-color: #000000;
   --c-border-color: rgb(230, 236, 240);
   --c-gray: #6e767d;
@@ -10,7 +8,43 @@
   --fade: 120ms;
 }
 
-.dim:root {
+/* light */
+
+.light.blue:root {
+  --c-theme: rgb(26, 145, 218);
+  --c-theme-10: rgb(26, 145, 218, 0.1);
+}
+
+.light.yellow:root {
+  --c-theme: rgb(230, 156, 28);
+  --c-theme-10: rgba(230, 156, 28, 0.1);
+}
+
+.light.pink:root {
+  --c-theme: #e0245e;
+  --c-theme-10: rgba(16, 22, 26, 0.1);
+}
+
+.light.purple:root {
+  --c-theme: rgb(121, 75, 196);
+  --c-theme-10: rgb(121, 75, 196, 0.1);
+}
+
+.light.orange:root {
+  --c-theme: rgb(220, 84, 31);
+  --c-theme-10: rgb(220, 84, 31, 0.1);
+}
+
+.light.green:root {
+  --c-theme: rgb(21, 172, 89);
+  --c-theme-10: rgb(21, 172, 89, 0.1);
+}
+
+/* dim  */
+
+.dim.blue:root {
+  --c-theme: rgb(26, 145, 218);
+  --c-theme-10: rgb(26, 145, 218, 0.1);
   --c-primary: rgb(21, 32, 43);
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
@@ -18,7 +52,111 @@
   --c-dark-gray: #202327;
 }
 
-.dark:root {
+.dim.yellow:root {
+  --c-theme: rgb(230, 156, 28);
+  --c-theme-10: rgba(230, 156, 28, 0.1);
+  --c-primary: rgb(21, 32, 43);
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dim.pink:root {
+  --c-theme: #e0245e;
+  --c-theme-10: rgba(16, 22, 26, 0.1);
+  --c-primary: rgb(21, 32, 43);
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dim.purple:root {
+  --c-theme: rgb(121, 75, 196);
+  --c-theme-10: rgb(121, 75, 196, 0.1);
+  --c-primary: rgb(21, 32, 43);
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dim.orange:root {
+  --c-theme: rgb(220, 84, 31);
+  --c-theme-10: rgb(220, 84, 31, 0.1);
+  --c-primary: rgb(21, 32, 43);
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dim.green:root {
+  --c-theme: rgb(21, 172, 89);
+  --c-theme-10: rgb(21, 172, 89, 0.1);
+  --c-primary: rgb(21, 32, 43);
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+/* dark */
+
+.dark.blue:root {
+  --c-theme: rgb(26, 145, 218);
+  --c-theme-10: rgb(26, 145, 218, 0.1);
+  --c-primary: #000;
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dark.yellow:root {
+  --c-theme: rgb(230, 156, 28);
+  --c-theme-10: rgba(230, 156, 28, 0.1);
+  --c-primary: #000;
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dark.pink:root {
+  --c-theme: #e0245e;
+  --c-theme-10: rgba(16, 22, 26, 0.1);
+  --c-primary: #000;
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dark.purple:root {
+  --c-theme: rgb(121, 75, 196);
+  --c-theme-10: rgb(121, 75, 196, 0.1);
+  --c-primary: #000;
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dark.orange:root {
+  --c-theme: rgb(220, 84, 31);
+  --c-theme-10: rgb(220, 84, 31, 0.1);
+  --c-primary: #000;
+  --c-text-color: #ffffff;
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+}
+
+.dark.green:root {
+  --c-theme: rgb(21, 172, 89);
+  --c-theme-10: rgb(21, 172, 89, 0.1);
   --c-primary: #000;
   --c-text-color: #ffffff;
   --c-border-color: #2f3336;
