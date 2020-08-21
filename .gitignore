@@ -1,4 +1,5 @@
 .vscode
+.idea
 .next
 node_modules
 public/style-guide/
