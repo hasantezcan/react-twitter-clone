@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Index from '../components/layout'
 
 function HomePage() {
-  return <Layout>index</Layout>
+  return <Index>index</Index>
 }
 
 export default HomePage

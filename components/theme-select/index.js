@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 
-import styles from './theme-select.module.css'
-import StoreContext from '../store'
+import styles from './style.module.css'
+import StoreContext from '../../store'
 
 const THEME = {
   light: 'Light',

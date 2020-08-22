@@ -2,10 +2,10 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import cn from 'classnames'
 
-import NavigationButton from './navigation-button'
-import TextTitle from './text-title'
+import NavigationButton from './button'
+import TextTitle from '../text/title'
 
-import { MENU } from '../constants'
+import { MENU } from '../../constants'
 import styles from './navigation.module.css'
 
 function Navigation({ flat = false }) {

@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Index from '../components/layout'
 
 function MessagesPage() {
-  return <Layout>Messages</Layout>
+  return <Index>Messages</Index>
 }
 
 export default MessagesPage

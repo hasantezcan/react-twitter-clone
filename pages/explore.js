@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Index from '../components/layout'
 
 function ExplorePage() {
-  return <Layout>Explore</Layout>
+  return <Index>Explore</Index>
 }
 
 export default ExplorePage

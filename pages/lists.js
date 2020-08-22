@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Index from '../components/layout'
 
 function ListsPage() {
-  return <Layout>Lists</Layout>
+  return <Index>Lists</Index>
 }
 
 export default ListsPage

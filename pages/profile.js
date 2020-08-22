@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Index from '../components/layout'
 
 function ProfilePage() {
-  return <Layout>Profile</Layout>
+  return <Index>Profile</Index>
 }
 
 export default ProfilePage

@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Index from '../components/layout'
 
 function BookmarksPage() {
-  return <Layout>Bookmarks</Layout>
+  return <Index>Bookmarks</Index>
 }
 
 export default BookmarksPage
